@@ -8976,7 +8976,6 @@ GameObject:
   - component: {fileID: 7904239288696120225}
   - component: {fileID: 7904239288696120224}
   - component: {fileID: 7904239288696120287}
-  - component: {fileID: 7904239288696120286}
   - component: {fileID: 39213561779909147}
   m_Layer: 0
   m_Name: Environment Right
@@ -9050,19 +9049,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7904239288696120286
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7904239288696120285}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0.01}
 --- !u!54 &39213561779909147
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9078,7 +9064,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 126
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!1 &7904239289445321541
 GameObject:
   m_ObjectHideFlags: 0
@@ -9286,7 +9272,6 @@ GameObject:
   - component: {fileID: 7904239290001243688}
   - component: {fileID: 7904239290001243687}
   - component: {fileID: 7904239290001243686}
-  - component: {fileID: 7904239290001243685}
   - component: {fileID: 1289918137860169198}
   m_Layer: 0
   m_Name: Environment Left
@@ -9360,19 +9345,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7904239290001243685
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7904239290001243684}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: -0.01}
 --- !u!54 &1289918137860169198
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9388,7 +9360,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 126
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!1 &7912820690986638998
 GameObject:
   m_ObjectHideFlags: 0
